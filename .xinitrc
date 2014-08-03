@@ -1,6 +1,8 @@
 #!/bin/sh
+#
 # ~/.xinitrc
-# Executed by startx 
+#
+# Executed by startx (run your window manager from here)
 
 if [ -d /etc/X11/xinit/xinitrc.d ]; then
   for f in /etc/X11/xinit/xinitrc.d/*; do
@@ -10,14 +12,13 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
 fi
 
 if [ -f ~/.Xresources ]; then
-   xrdb -merge ~/.Xresources
+  xrdb -merge ~/.Xresources
 fi
 
 if [ -f ~/.Xmodmap ]; then
-   xmodmap .Xmodmap
+  xmodmap .Xmodmap
 fi
 
-# exec gnome-session
-# exec startxfce4
+#xscreensaver -no-splash &
+mpd
 exec awesome
-#exec enlightenment_start

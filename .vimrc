@@ -21,5 +21,3 @@ set autoindent
 "Enable mouse scrolling
 set mouse=a
 
-"Set font
-set guifont=DejaVuSans

@@ -1,7 +1,11 @@
-#Aliases
+#Environment variables
+export PATH=$PATH:$HOME/Android
+
+#Aliasses
 alias ls='ls --color=auto'
 alias ll='ls -la'
 
+alias term='urxvt'
 alias awesome-cfg='sudo vim ~/.config/awesome/rc.lua'
 
 #Mouting
@@ -15,8 +19,15 @@ alias diskdataumount='sudo umount /dev/sda4'
 alias ifup='sudo ip link set enp2s0 up'
 alias ifdown='sudo ip link set enp2s0 down'
 
+#Power modes
+#mem
+alias powersleep='echo -n mem | sudo tee /sys/power/state'
+#disk
+alias powerhib='echo -n disk | sudo tee /sys/power/state'
+
 #Pacman
 alias pacs='sudo pacman -S'
+alias pacsu='sudo pacman -U'
 alias pacss='pacman -Ss'
 alias pacup='sudo pacman -Syu'
 alias pacr='sudo pacman -Rns'

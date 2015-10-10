@@ -1,0 +1,8 @@
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+include "/usr/share/themes/FlatStudioDark/gtk-2.0/gtkrc"
+
+include "/home/tweaks/.gtkrc.mine"
+
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+
+gtk-icon-theme-name = "NITRUX"

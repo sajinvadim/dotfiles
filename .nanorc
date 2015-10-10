@@ -1,0 +1,24 @@
+##Use bold text instead of reverse video text
+set boldtext
+
+##Enable mouse support
+set mouse
+
+##Use custom tab size
+set tabsize 4
+
+
+##############################################
+##Colors setup
+
+##Nanorc
+include "/usr/share/nano/nanorc.nanorc"
+
+##C/C++
+include "/usr/share/nano/c.nanorc"
+
+##HTML
+include "/usr/share/nano/html.nanorc"
+
+##Shell
+include "/usr/share/nano/sh.nanorc"

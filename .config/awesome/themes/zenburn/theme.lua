@@ -9,8 +9,7 @@
 -- {{{ Main
 theme = {}
 theme.confdir   = os.getenv("HOME") .. "/.config/awesome/"
---theme.wallpaper = "/usr/share/awesome/themes/zenburn/zenburn-background.png"
-theme.wallpaper = theme.confdir .. "/walls/commands.png"
+theme.wallpaper = "/usr/share/awesome/themes/zenburn/zenburn-background.png"
 -- }}}
 
 -- {{{ Styles

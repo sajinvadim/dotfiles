@@ -68,6 +68,7 @@ local screens_cnt = screen.count()
 
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init(home .. "/.config/awesome/themes/zenburn/theme.lua")
+beautiful.wallpaper = home .. "/Documents/Images/light.png"
 
 -- Table of layouts to cover with awful.layout.inc, order matters.
 local layouts =
@@ -90,6 +91,7 @@ local layouts =
 -- {{{ Wallpaper
 if beautiful.wallpaper then
     for s = 1, screens_cnt do
+        -- TODO - Set individual wall on each workspace
         gears.wallpaper.maximized(beautiful.wallpaper, s, true)
     end
 end

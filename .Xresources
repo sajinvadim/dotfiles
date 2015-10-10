@@ -2,8 +2,8 @@
 ! URxvt
 URxvt*depth:            0
 URxvt*shading:          20
-URxvt*transparent:      true
-URxvt*transparency:     fase
+URxvt*transparent:      false
+URxvt*transparency:     true
 URxvt.scrollstyle:      rxvt
 URxvt.scrollBar:        off
 URxvt.letterSpace:      0

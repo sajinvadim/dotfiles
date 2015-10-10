@@ -19,6 +19,11 @@ if [ -f ~/.Xmodmap ]; then
   xmodmap .Xmodmap
 fi
 
+export TERM=xterm-256color
+export EDITOR=vim
+export VISUAL=$EDITOR
+export GIT_EDITOR=$EDITOR
+
 #xscreensaver -no-splash &
-mpd
+#mpd
 exec awesome
